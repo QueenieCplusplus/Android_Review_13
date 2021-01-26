@@ -44,3 +44,13 @@ see codeScript as below. It is corresponding with UI https://github.com/QueenieC
       [data modules]
       import com.example.andorid.katesvideoapp.viewmodels.ViewModel
       import com.example.android.katesvideoapp.domain.Video
+      
+      class KatesVideoAppFragment: Fragment(){
+      
+      
+            
+      
+      
+      
+      
+      }
