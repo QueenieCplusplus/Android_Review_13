@@ -46,6 +46,8 @@ RecyclerView 循環目錄清單
             import com.example.andorid.katesvideoapp.viewmodels.ViewModel
             import com.example.android.katesvideoapp.domain.Video
 
+
+             // 定義碎片畫面的類別
             class KatesVideoAppFragment: Fragment(){
 
 
@@ -84,5 +86,14 @@ RecyclerView 循環目錄清單
 
 
             }
+            
+            // TODO:
+            class AfterVideoClick(){
+                fun onClick(v: Video) = 
+            }
+            
+            // 定義適配器的類別。參數為上述類別的輸出。
+            class VideoAdpater(val cb: AfterVideoClick)
+            
 
 2. today's tip (lazy 懶加載)
