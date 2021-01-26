@@ -98,6 +98,7 @@ RecyclerView 循環目錄清單
             
                         // TODO:
                         // declair and define the items variable.
+                        var videos: List<Video>
                         
                         // TODO
                         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VideoViewHolder{
@@ -105,10 +106,10 @@ RecyclerView 循環目錄清單
                         }
                         
                         // TODO
-                        override getItemCount() = 
+                        override getItemCount() = videos.size
                         
                         // TODO
-                        override fun onBindViewHolder(){
+                        override fun onBindViewHolder(holder: VideoViewHolder, position: Int){
                         
                         
                         }
