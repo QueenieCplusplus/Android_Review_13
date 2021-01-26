@@ -74,8 +74,11 @@ RecyclerView 循環目錄清單
 
                     }
 
+                    
+                    // TODO:
+                    // define a private fun for remind user about the sysError such as NetworkError
 
-
+             
 
 
             }
