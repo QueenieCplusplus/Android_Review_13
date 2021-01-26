@@ -107,7 +107,16 @@ RecyclerView 循環目錄清單
                         // TODO
                         override getItemCount() = 
                         
+                        // TODO
+                        override fun onBindViewHolder(){
                         
+                        
+                        }
+            
+            }
+            
+            // 定義資料畫面目錄清單的欄位值資料抓取器
+            class VideoViewHolder(){
             
             
             }
