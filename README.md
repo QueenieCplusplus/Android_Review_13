@@ -11,20 +11,35 @@ see codeScript as below. It is corresponding with UI https://github.com/QueenieC
       
       [dataBind module]
       import com.example.android.katesvideoapp.R
-      import com.example.android.katesvideoapp.databinding.ItemBinding
-      import com.example.android.katesvideoapp.databinding.FragmentBinding
+      import com.example.android.katesvideoapp.databinding.KatesVideoAppItemBinding
+      import com.example.android.katesvideoapp.databinding.FragmentKatesVideoAppBinding
       
       [intent module]
+      import android.content.Intent
       
       [view Group module]
+      import android.view.View
+      import android.view.ViewGroup
       
       [inflater module]
+      import android.view.LayoutInflater
+      import androidx.fragment.app.Fragment
+      
+      [annotation module]
+      import androidx.annotation.LayoutRes
+      
+      [Uri module]
+      import android.net.Uri
       
       [observer module]
+      import androidx.lifecycle.Observer
       
       [viewModel module]
+      import androidx.lifecycle.viewModelProvider
       
       [recyclerView module]
+      import androidx.recyclerview.widget.RecyclerView
+      import androidx.recyclerview.widge.LinearLayout
       
       [data modules]
       import com.example.andorid.katesvideoapp.viewmodels.ViewModel
