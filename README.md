@@ -116,8 +116,13 @@ RecyclerView 循環目錄清單
             }
             
             // 定義資料畫面目錄清單的欄位值資料抓取器
-            class VideoViewHolder(){
+            class VideoViewHolder(val viewDataBinding: KatesVideoAppItemBinding): RecyclerView.ViewHolder(viewDataBinding.root){
             
+                    companion object {
+                    
+                      val LAYOUT = R.layout.
+                    
+                    }
             
             }
             
