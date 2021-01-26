@@ -93,15 +93,15 @@ RecyclerView 循環目錄清單
             }
             
             // 定義適配器的類別。參數為上述類別的輸出。
-            class VideoAdpater(val cb: AfterVideoClick): RecyclerView.Adapter<VidepViewHolder>(){
+            class VideoAdpater(val cb: AfterVideoClick): RecyclerView.Adapter<VideoViewHolder>(){
             
             
                         // TODO:
                         // declair and define the items variable.
                         
                         // TODO
-                        override fun onCreateViewHolder(){
-                        
+                        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VideoViewHolder{
+                             
                         }
                         
                         // TODO
