@@ -120,7 +120,7 @@ RecyclerView 循環目錄清單
             
                     companion object {
                     
-                      val LAYOUT = R.layout.
+                      val LAYOUT = R.layout.katesvideoapp_item
                     
                     }
             
