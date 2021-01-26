@@ -79,6 +79,8 @@ RecyclerView 循環目錄清單
                     // define a private fun for remind user about the sysError such as NetworkError
 
              
+                    // TODO:
+                    // using Uri to generate Links to Youtube
 
 
             }
