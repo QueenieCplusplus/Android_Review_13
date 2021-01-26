@@ -1,7 +1,7 @@
 # Android_Review_13
 RecyclerView 循環目錄清單
 
-see codeScript as below.
+see codeScript as below. It is corresponding with UI https://github.com/QueenieCplusplus/Android_Review_9 
 
       // go to app/src/main/java...../katesvideoapp/ui/Fragment.kt
       
