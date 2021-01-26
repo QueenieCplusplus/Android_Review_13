@@ -17,13 +17,14 @@ RecyclerView 循環目錄清單
       [intent module]
       import android.content.Intent
       
-      [view Group module]
+      [view module]
       import android.view.View
-      import android.view.ViewGroup
+
       
       [inflater module]
       import android.view.LayoutInflater
       import androidx.fragment.app.Fragment
+      import android.view.ViewGroup
       
       [annotation module]
       import androidx.annotation.LayoutRes
@@ -57,7 +58,7 @@ RecyclerView 循環目錄清單
               // declair and define 適配器變數可空
               
               
-              // 碎片的生命週期
+              // 碎片的生命週期之一
               override fun onViewCreated(v: View, savedInstanceState: Bundle?){
               
                   super.onViewCreated(v, savedInstanceState)
@@ -65,6 +66,13 @@ RecyclerView 循環目錄清單
               
               }
               
+              // 碎片的生命週期之一
+              override fun OnCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+              
+                  // TODO：
+                  // infate the fragment
+              
+              }
             
       
       
