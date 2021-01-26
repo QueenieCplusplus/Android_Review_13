@@ -48,6 +48,23 @@ RecyclerView 循環目錄清單
       class KatesVideoAppFragment: Fragment(){
       
       
+      
+              // TODO:
+              // declair and define val ViewModel 此客製化類別的實例 
+              // declair and define val by lazy in its body 利用懶加載初始化內部唯讀資料
+              
+              // TODO:
+              // declair and define 適配器變數可空
+              
+              
+              // 碎片的生命週期
+              override fun onViewCreated(v: View, savedInstanceState: Bundle?){
+              
+                  super.onViewCreated(v, savedInstanceState)
+                  
+              
+              }
+              
             
       
       
